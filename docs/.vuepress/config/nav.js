@@ -1,13 +1,13 @@
 module.exports = [
     {text: '首页', link: '/'},
     {
-        text: 'java技术',
-        link: '/java/',  //目录页，vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        text: '后端技术',
+        link: '/tech/',  //目录页，vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
             {
                 text: '基础', items: [
                     {text: 'JDK8', link: '/1'}, // 注意link结尾有斜杠和没有斜杠的区别
-                    {text: '技巧', link: '/java/skills/2018-03-25/'},
+                    {text: '技巧', link: '/tech/skills'},
                     {text: '疑难杂症', link: '/2'},
                 ]
             },
@@ -21,14 +21,6 @@ module.exports = [
         ]
     },
     {
-        text: '工具分享',
-        link: '/tool/',
-        items: [
-            {text: '破解工具', link: '/6'},
-            {text: '高分推荐', link: '/7'},
-        ]
-    },
-    {
         text: '前端技术',
         link: '/web/',
         items: [
@@ -39,16 +31,17 @@ module.exports = [
         ]
     },
     {
-        text: '更多',
-        link: '/more/',
+        text: '好物分享',
+        link: '/tool/',
         items: [
-            {text: '学习', link: '/12'},
-            {text: '面试', link: '/13'},
-            {text: '心情杂货', link: '/14'},
-            {text: '友情链接', link: '/friends/'},
+            {text: '破解工具', link: '/6'},
+            {text: '高分推荐', link: '/7'},
         ]
     },
-    {text: '关于', link: '/about/'},
+    {
+        text: '瞎折腾',
+        link: '/other/',
+    },
     {
         text: '收藏',
         link: '/collect/',
@@ -58,6 +51,18 @@ module.exports = [
             {text: 'Vue资源', link: '/17'},
         ]
     },
+    {
+        text: '更多',
+        link: '/more/',
+        items: [
+            {text: '学习', link: '/12'},
+            {text: '面试', link: '/13'},
+            {text: '心情杂货', link: '/14'},
+        ]
+    },
+    {text: '友情链接', link: '/friends/'},
+    {text: '赞赏', link: '/admire/'},
+    {text: '关于', link: '/about/'},
     {
         text: '索引',
         link: '/archives/',

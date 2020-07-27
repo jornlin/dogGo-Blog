@@ -80,7 +80,7 @@ module.exports = {
             ]
         },
         footer: { // 页脚信息
-            createYear: 2018, // 博客创建年份
+            createYear: 2019, // 博客创建年份
             copyrightInfo: '<a href="https://github.com/jornlin" style="font-weight: 600" target="_blank">Jornlin</a>  ', // 博客版权信息，支持a标签
         }
     },
